@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyPassWord</string>
+    <string name="top_screen_list_button_print">リスト</string>
+    <string name="top_screen_input_button_print">入力</string>
+    <string name="password_list_detail_button_print">詳細</string>
+    <string name="password_input_confirm_button_print">確認</string>
+    <string name="password_confirm_confirm_text">確認</string>
+    <string name="password_detail_detail_text">詳細</string>
+    <string name="password_confirm_return_top_screen_button_print">トップに戻る</string>
+    <string name="password_detail_return_top_screen_button_print">トップに戻る</string>
+</resources>
