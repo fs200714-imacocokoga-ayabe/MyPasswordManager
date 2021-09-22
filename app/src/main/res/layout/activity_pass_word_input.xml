@@ -6,15 +6,160 @@
     android:layout_height="match_parent"
     tools:context=".PassWordInputActivity">
 
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/passWord_input_siteName_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_siteName_textView_print" />
+
+        <EditText
+            android:id="@+id/passWord_input_siteName_editTextPersonName_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/passWord_input_webSite_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_webSite_textView_print" />
+
+        <EditText
+            android:id="@+id/passWord_input_webSite_editTextTextPersonName_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:text=""
+            android:inputType="textPersonName"
+            tools:ignore="LabelFor,TextFields"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/passWord_input_mailAddress_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_mailAddress_textView_print" />
+
+        <EditText
+            android:id="@+id/passWord_input_mailAddress_editTextTextEmailAddress_id"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:ems="10"
+            android:text=""
+            android:inputType="textEmailAddress"
+            tools:ignore="LabelFor,TextFields"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/passWord_input_account_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_account_textView_print" />
+
+        <EditText
+            android:id="@+id/passWord_input_account_editTextTextMultiLine_id"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:ems="10"
+            android:text=""
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            tools:ignore="LabelFor,TextFields"
+            android:autofillHints="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <TextView
+            android:id="@+id/passWord_input_passWord_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_passWord_textView_print" />
+
+        <EditText
+            android:id="@+id/passWord_input_passWord_editTextTextMultiLine_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:ems="10"
+            android:text=""
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:autofillHints=""
+            tools:ignore="LabelFor,TextFields" />
+    </LinearLayout>
+
     <Button
         android:id="@+id/password_input_confirm_button_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="166dp"
-        android:layout_marginTop="114dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="157dp"
         android:text="@string/password_input_confirm_button_print"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,27 +6,105 @@
     android:layout_height="match_parent"
     tools:context=".PassWordConfirmActivity">
 
-    <TextView
-        android:id="@+id/password_confirm_confirm_text_id"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="131dp"
-        android:layout_marginEnd="209dp"
-        android:text="@string/password_confirm_confirm_text"
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="500dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/passWord_confirm_siteName_textView_print_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_siteName_textView_print" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_siteName_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_webSite_textView_print_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_webSite_textView_print" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_webSite_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_mailAddress_textView_print_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_mailAddress_textView_print" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_mailAddress_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_account_textView_print__id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_account_textView_print" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_account_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_passWord_textView_print_id"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="@string/string_passWord_textView_print" />
+
+        <TextView
+            android:id="@+id/passWord_confirm_passWord_textView_id"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="177dp"
+        android:text="Button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
 
     <Button
         android:id="@+id/password_confirm_return_top_screen_button_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="149dp"
-        android:layout_marginTop="207dp"
+        android:layout_marginTop="18dp"
         android:layout_marginEnd="174dp"
         android:text="@string/password_confirm_return_top_screen_button_print"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_confirm_confirm_text_id" />
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
