@@ -4,8 +4,12 @@
     <string name="top_screen_input_button_print">入力</string>
     <string name="password_list_detail_button_print">詳細</string>
     <string name="password_input_confirm_button_print">確認</string>
-    <string name="password_confirm_confirm_text">確認</string>
     <string name="password_detail_detail_text">詳細</string>
     <string name="password_confirm_return_top_screen_button_print">トップに戻る</string>
     <string name="password_detail_return_top_screen_button_print">トップに戻る</string>
+    <string name="string_siteName_textView_print">サイト名</string>
+    <string name="string_webSite_textView_print">ウェブサイト</string>
+    <string name="string_mailAddress_textView_print">メールアドレス</string>
+    <string name="string_account_textView_print">アカウント</string>
+    <string name="string_passWord_textView_print">パスワード</string>
 </resources>
