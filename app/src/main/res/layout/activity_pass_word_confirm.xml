@@ -23,7 +23,7 @@
             android:id="@+id/passWord_confirm_siteName_textView_print_id"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="@string/string_siteName_textView_print" />
+            android:text="@string/display_siteName" />
 
         <TextView
             android:id="@+id/passWord_confirm_siteName_textView_id"
@@ -35,7 +35,7 @@
             android:id="@+id/passWord_confirm_webSite_textView_print_id"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="@string/string_webSite_textView_print" />
+            android:text="@string/display_webSite" />
 
         <TextView
             android:id="@+id/passWord_confirm_webSite_textView_id"
@@ -47,7 +47,7 @@
             android:id="@+id/passWord_confirm_mailAddress_textView_print_id"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="@string/string_mailAddress_textView_print" />
+            android:text="@string/display_mailAddress" />
 
         <TextView
             android:id="@+id/passWord_confirm_mailAddress_textView_id"
@@ -59,7 +59,7 @@
             android:id="@+id/passWord_confirm_account_textView_print__id"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="@string/string_account_textView_print" />
+            android:text="@string/display_account" />
 
         <TextView
             android:id="@+id/passWord_confirm_account_textView_id"
@@ -71,7 +71,7 @@
             android:id="@+id/passWord_confirm_passWord_textView_print_id"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:text="@string/string_passWord_textView_print" />
+            android:text="@string/display_passWord" />
 
         <TextView
             android:id="@+id/passWord_confirm_passWord_textView_id"
@@ -81,13 +81,13 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/password_confirm_save_button_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="146dp"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="177dp"
-        android:text="Button"
+        android:text="@string/display_saveData"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
@@ -99,11 +99,11 @@
         android:layout_marginStart="149dp"
         android:layout_marginTop="18dp"
         android:layout_marginEnd="174dp"
-        android:text="@string/password_confirm_return_top_screen_button_print"
+        android:text="@string/display_return_topScreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.35"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/password_confirm_save_button_id" />
 
 
 

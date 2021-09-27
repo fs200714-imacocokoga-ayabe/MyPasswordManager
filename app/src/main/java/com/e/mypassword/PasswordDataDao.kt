@@ -14,4 +14,9 @@ interface PasswordDataDao {
     @Delete
     fun delete(passwordData : PassWordData)
 
+    @Query("SELECT * FROM passwordData")
+    fun getAll(): List<PassWordData>
+
+
+
 }
