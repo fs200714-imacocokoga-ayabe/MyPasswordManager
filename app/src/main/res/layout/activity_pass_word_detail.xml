@@ -13,7 +13,7 @@
         android:layout_marginStart="179dp"
         android:layout_marginTop="124dp"
         android:layout_marginEnd="175dp"
-        android:text="@string/password_detail_detail_text"
+        android:text="@string/display_detail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
         android:layout_marginStart="167dp"
         android:layout_marginTop="76dp"
         android:layout_marginEnd="156dp"
-        android:text="@string/password_detail_return_top_screen_button_print"
+        android:text="@string/display_return_topScreen"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password_detail_detail_text_id" />

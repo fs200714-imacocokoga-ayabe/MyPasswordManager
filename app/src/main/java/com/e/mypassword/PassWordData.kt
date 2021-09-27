@@ -9,6 +9,6 @@ data class PassWordData(
     var siteName: String,
     var siteAddress: String,
     var account: String,
-    var maleAddress: String,
+    var mailAddress: String,
     var passWord: String
 )
